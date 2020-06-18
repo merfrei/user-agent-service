@@ -1,0 +1,9 @@
+[api]
+api_key = "yoursupersecretapikey"
+
+[database]
+
+    [database.postgres]
+    uri = "postgresql://merfrei:1234@localhost:5432/useragents"
+    pool_min = 10
+    pool_max = 50
